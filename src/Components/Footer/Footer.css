@@ -1,0 +1,38 @@
+footer {
+  background-color: #2d2e32;
+  padding: 3rem;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.footerc {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
+footer h3 {
+  color: #fff;
+  font-size: 1.5rem;
+  display: grid;
+  align-items: center;
+}
+.footerc-socials {
+  align-items: center;
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+}
+.footerc-socials a {
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+@media (max-width: 550px) {
+  .footerc {
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    text-align: center;
+  }
+}
