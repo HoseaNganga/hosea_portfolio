@@ -34,22 +34,22 @@
 }
 
 .project1ImageContainer {
-  background-image: url(../../ImageAssets/commerceApp.png);
+  background-image: url(../../ImageAssets/Prompt-Quest.png);
   background-size: cover;
   background-position: top center;
 }
 .project2ImageContainer {
-  background-image: url(../../ImageAssets/gym-app.png);
+  background-image: url(../../ImageAssets/commerceApp.png);
   background-size: cover;
   background-position: top center;
 }
 .project3ImageContainer {
-  background-image: url(../../ImageAssets/car-rental-app.png);
+  background-image: url(../../ImageAssets/gym-app.png);
   background-size: cover;
   background-position: top center;
 }
 .project4ImageContainer {
-  background-image: url(../../ImageAssets/recipe-app.png);
+  background-image: url(../../ImageAssets/car-rental-app.png);
   background-size: cover;
   background-position: top center;
 }
@@ -67,4 +67,16 @@
   color: #147efb;
   font-size: 1.2rem;
   font-weight: 700;
+}
+
+@media screen and (max-width: 600px) {
+  .projectCard .imageContainer {
+    height: 120px;
+    background-size: cover;
+  }
+  .projectCard {
+    height: auto;
+    font-size: 1rem;
+    line-height: 2rem;
+  }
 }

@@ -9,6 +9,26 @@ const Projects = () => {
         <div className="projectsFlexContainer">
           <div className="projectCard project1">
             <div className="project1ImageContainer imageContainer"></div>
+            <h3>Prompt-Quest-App</h3>
+            <p>
+              This application facilitates user authentication via email login,
+              enabling users to access various features such as creating and
+              editing posts. Leveraging MongoDB as the backend database, user
+              creation is managed through Mongoose, a MongoDB object modeling
+              tool designed for Node.js.
+            </p>
+            <p>
+              <a
+                href="https://prompt-quest-app.vercel.app/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                View Website
+              </a>
+            </p>
+          </div>
+          <div className="projectCard project2">
+            <div className="project2ImageContainer imageContainer"></div>
             <h3>E-Commerce Web Application</h3>
             <p>
               This project is an e-commerce website built using
@@ -28,8 +48,8 @@ const Projects = () => {
               </a>
             </p>
           </div>
-          <div className="projectCard project2">
-            <div className="project2ImageContainer imageContainer"></div>
+          <div className="projectCard project3">
+            <div className="project3ImageContainer imageContainer"></div>
             <h3>Gym Web Application</h3>
             <p>
               This project is a gym website built using HTML,CSS,JavScript and
@@ -51,8 +71,8 @@ const Projects = () => {
               </a>
             </p>
           </div>
-          <div className="projectCard project3">
-            <div className="project3ImageContainer imageContainer"></div>
+          <div className="projectCard project4">
+            <div className="project4ImageContainer imageContainer"></div>
             <h3>Car-Rental Web Application</h3>
             <p>
               This project is a car rental website built using
@@ -64,28 +84,6 @@ const Projects = () => {
             <p>
               <a
                 href="https://car-rental-app.pages.dev/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                View Website
-              </a>
-            </p>
-          </div>
-          <div className="projectCard project4">
-            <div className="project4ImageContainer imageContainer"></div>
-            <h3>Recipe Web Application</h3>
-            <p>
-              This project is a recipe generating built using
-              HTML,CSS,JavScript.Its features include: Fetching and displaying
-              random meals with the option to view the recipe details,searching
-              for specific meals and view their details and adding and removing
-              meals to/from your favorites list.It informs the use of an API for
-              Integration,Data Manipulation,Error Handling as well workings of
-              Local Storage
-            </p>
-            <p>
-              <a
-                href="https://recipe-app-19c.pages.dev/"
                 target="_blank"
                 rel="noreferrer"
               >
